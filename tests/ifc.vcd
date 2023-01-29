@@ -1,0 +1,66 @@
+$date
+	Sun Jan 29 14:50:42 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ifc_test $end
+$var wire 1 ! RST_N $end
+$var wire 8 " cfg_address [7:0] $end
+$var wire 32 # cfg_data_in [31:0] $end
+$var wire 1 $ cfg_en $end
+$var wire 1 % cfg_op $end
+$var wire 1 & cfg_rdy $end
+$var wire 1 ' din_en $end
+$var wire 8 ( din_value [7:0] $end
+$var wire 1 ) dout_en $end
+$var wire 1 * len_en $end
+$var wire 1 + len_rdy $end
+$var wire 8 , len_value [7:0] $end
+$var wire 8 - dout_value [7:0] $end
+$var wire 1 . dout_rdy $end
+$var wire 1 / din_rdy $end
+$var wire 32 0 cfg_data_out [31:0] $end
+$var reg 1 1 CLK $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+01
+b0x0x0x0x0 0
+1/
+0.
+b10101010 -
+bz ,
+1+
+z*
+z)
+bz (
+z'
+1&
+z%
+z$
+bz #
+bz "
+1!
+$end
+#1
+b0 0
+0!
+#1000
+b10 ,
+1*
+1'
+1!
+11
+#2000
+01
+#3000
+b0x0 0
+11
+#4000
+01
+#4001
