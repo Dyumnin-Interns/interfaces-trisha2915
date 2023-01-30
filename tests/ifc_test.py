@@ -1,7 +1,7 @@
 import cocotb
 from cocotb.decorators import coroutine
 from cocotb.triggers import (Event, RisingEdge, ReadOnly, Timer, NextTimeStep, Edge)
-from cocotb.bus.drivers import BusDriver
+from cocotb-bus.drivers import BusDriver
 from cocotb.result import ReturnValue, TestError
 import random
 
